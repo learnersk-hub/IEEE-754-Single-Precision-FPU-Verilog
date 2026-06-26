@@ -1,0 +1,79 @@
+$date
+	Thu Jun 25 13:17:48 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module normalize_tb $end
+$var wire 24 ! mant_out [23:0] $end
+$var wire 8 " exp_out [7:0] $end
+$var reg 8 # exp_in [7:0] $end
+$var reg 25 $ mant_in [24:0] $end
+$scope module uut $end
+$var wire 8 % exp_in [7:0] $end
+$var wire 25 & mant_in [24:0] $end
+$var reg 8 ' exp_out [7:0] $end
+$var reg 24 ( mant_out [23:0] $end
+$var reg 8 ) temp_exp [7:0] $end
+$var reg 25 * temp_mant [24:0] $end
+$var integer 32 + shift [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+b1100000000000000000000000 *
+b1111111 )
+b110000000000000000000000 (
+b10000000 '
+b1100000000000000000000000 &
+b1111111 %
+b1100000000000000000000000 $
+b1111111 #
+b10000000 "
+b110000000000000000000000 !
+$end
+#10000
+b0 "
+b0 '
+b0 !
+b0 (
+b0 *
+b0 $
+b0 &
+#20000
+b10000010 "
+b10000010 '
+b100000000000000000000000 !
+b100000000000000000000000 (
+b0 +
+b10000010 )
+b100000000000000000000000 *
+b10000010 #
+b10000010 %
+b100000000000000000000000 $
+b100000000000000000000000 &
+#30000
+b10000001 "
+b10000001 '
+b1 +
+b10000001 )
+b100000000000000000000000 *
+b10000000000000000000000 $
+b10000000000000000000000 &
+#40000
+b1111111 "
+b1111111 '
+b11 +
+b1111111 )
+b100000000000000000000000 *
+b100000000000000000000 $
+b100000000000000000000 &
+#50000

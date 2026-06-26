@@ -1,0 +1,70 @@
+$date
+	Wed Jun 24 00:15:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module special_case_tb $end
+$var wire 1 ! is_zero $end
+$var wire 1 " is_subnormal $end
+$var wire 1 # is_normal $end
+$var wire 1 $ is_nan $end
+$var wire 1 % is_inf $end
+$var reg 32 & in [31:0] $end
+$scope module uut $end
+$var wire 32 ' in [31:0] $end
+$var wire 1 % is_inf $end
+$var wire 1 $ is_nan $end
+$var wire 1 # is_normal $end
+$var wire 1 " is_subnormal $end
+$var wire 1 ! is_zero $end
+$var wire 23 ( frac [22:0] $end
+$var wire 8 ) exp [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+0$
+0#
+0"
+1!
+$end
+#10000
+0!
+1%
+b11111111 )
+b1111111100000000000000000000000 &
+b1111111100000000000000000000000 '
+#20000
+0%
+1$
+b10000000000000000000000 (
+b1111111110000000000000000000000 &
+b1111111110000000000000000000000 '
+#30000
+0$
+1"
+b0 )
+b1 (
+b1 &
+b1 '
+#40000
+1#
+0"
+b1111111 )
+b0 (
+b111111100000000000000000000000 &
+b111111100000000000000000000000 '
+#50000

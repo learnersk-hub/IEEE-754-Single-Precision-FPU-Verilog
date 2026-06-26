@@ -1,0 +1,47 @@
+$date
+	Wed Jun 24 00:05:05 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module unpack_tb $end
+$var wire 1 ! sign $end
+$var wire 24 " mant [23:0] $end
+$var wire 8 # exp [7:0] $end
+$var reg 32 $ in [31:0] $end
+$scope module uut $end
+$var wire 32 % in [31:0] $end
+$var wire 1 ! sign $end
+$var wire 24 & mant [23:0] $end
+$var wire 8 ' exp [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111111 '
+b100000000000000000000000 &
+b111111100000000000000000000000 %
+b111111100000000000000000000000 $
+b1111111 #
+b100000000000000000000000 "
+0!
+$end
+#10000
+b10000000 #
+b10000000 '
+b1000000000000000000000000000000 $
+b1000000000000000000000000000000 %
+#20000
+1!
+b1111111 #
+b1111111 '
+b10111111100000000000000000000000 $
+b10111111100000000000000000000000 %
+#30000

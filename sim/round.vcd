@@ -1,0 +1,71 @@
+$date
+	Thu Jun 25 13:29:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module round_tb $end
+$var wire 24 ! mant_out [23:0] $end
+$var wire 8 " exp_out [7:0] $end
+$var reg 8 # exp_in [7:0] $end
+$var reg 1 $ guard $end
+$var reg 24 % mant_in [23:0] $end
+$var reg 1 & round_bit $end
+$var reg 1 ' sticky $end
+$scope module uut $end
+$var wire 8 ( exp_in [7:0] $end
+$var wire 1 $ guard $end
+$var wire 24 ) mant_in [23:0] $end
+$var wire 1 & round_bit $end
+$var wire 1 ' sticky $end
+$var reg 8 * exp_out [7:0] $end
+$var reg 24 + mant_out [23:0] $end
+$var reg 25 , temp [24:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100000000000000000000000 ,
+b100000000000000000000000 +
+b1111111 *
+b100000000000000000000000 )
+b1111111 (
+0'
+0&
+b100000000000000000000000 %
+0$
+b1111111 #
+b1111111 "
+b100000000000000000000000 !
+$end
+#10000
+b100000000000000000000001 !
+b100000000000000000000001 +
+b100000000000000000000001 ,
+1&
+1$
+#20000
+b100000000000000000000010 !
+b100000000000000000000010 +
+b100000000000000000000010 ,
+0&
+b100000000000000000000001 %
+b100000000000000000000001 )
+#30000
+b10000000 "
+b10000000 *
+b1000000000000000000000000 ,
+b100000000000000000000000 !
+b100000000000000000000000 +
+1'
+1&
+b111111111111111111111111 %
+b111111111111111111111111 )
+#40000
